@@ -1,0 +1,25 @@
+.container {
+    position: relative;
+    background-color: #555;
+    color: white;
+    font-size: 12px;
+    padding: 5px 10px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    text-align: center;
+  }
+  .ShekO {
+    top: -200px;
+    left: 240px;
+  } 
+  .ShekO:hover {
+    background-color: black;
+  }
+  .HaFaShan {
+    top: -470px;
+    left: -100px;
+  }
+  .HaFaShan:hover {
+    background-color: black;
+  }
