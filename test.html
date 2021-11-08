@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            padding:0;
+            margin:0;
+        }
+        .box{
+            scroll-snap-type: y mandatory;
+            max-width: 100vw;
+            max-height: 100vh;
+            overflow-y: scroll;
+        }
+        .pic{
+            width: 100vw;
+            height: 100vh;
+            scroll-snap-align: start;
+            display:block;
+            background-color: blue;
+            background: fixed;
+        }
+
+        .pic:nth-child(even){
+            background-color: red;
+        }
+    </style>
+
+</head>
+<body>
+<div class="box">
+    <div class="pic"></div>
+    <div class="pic"></div>
+    <div class="pic"></div>
+    <img src="ShekO_Background.jpg" class="pic">
+    <div class="pic"></div>
+    <div class="pic"></div>
+    <div class="pic"></div>
+
+
+</div>
+</body>
+</html>
