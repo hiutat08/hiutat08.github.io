@@ -16,9 +16,11 @@
     padding: 5px 10px;
     border-radius: 5px;
     text-align: center;
-    background-color: black;
   }
 
+  .ShekO:hover, .HaFaShan:hover, .MaOnShan:hover{
+    background-color: black;
+  }
   .ShekO {
     top: 445px;
     left: 570px;
