@@ -1,35 +1,36 @@
 body{
     background-color:#d6d7ff;
 }
-.container {
-    position: relative;
+
+.mapBox{
+  margin:0 auto;
+  background-image: url('HongKong.png');
+  width: 857px;
+  height: 611px;
+  position:relative;
+}
+
+.mapBox a {
+    text-decoration: none;
+    position: absolute;
     background-color: #555;
     color: white;
     font-size: 12px;
     padding: 5px 10px;
-    border: none;
-    cursor: pointer;
     border-radius: 5px;
     text-align: center;
+    background-color: black;
   }
+
   .ShekO {
-    top: -200px;
-    left: 240px;
+    top: 445px;
+    left: 570px;
   } 
-  .ShekO:hover {
-    background-color: black;
-  }
   .HaFaShan {
-    top: -470px;
-    left: -100px;
-  }
-  .HaFaShan:hover {
-    background-color: black;
+    top: 210px;
+    left: 350px;
   }
   .MaOnShan {
-    top: -540px;
-    left: 120px;
-  }
-  .MaOnShan:hover {
-    background-color: black;
+    top: 150px;
+    right: 220px;
   }
