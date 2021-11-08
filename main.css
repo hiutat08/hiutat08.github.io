@@ -1,10 +1,7 @@
-body{
-    background-color:#d6d7ff;
-}
 
 .mapBox{
   margin:0 auto;
-  background-image: url('HongKong.png');
+  background-image: url('Photos/HongKong.png');
   width: 857px;
   height: 611px;
   position:relative;
