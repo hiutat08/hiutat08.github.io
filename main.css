@@ -17,15 +17,15 @@
     text-align: center;
   }
   .dropbtn {
-    top: 150px;
-    right: 220px;
     background-color: #555;
     color: white;
     padding: 16px;
     font-size: 16px;
   }
   .dropdown {
-    position: relative;
+    top: 150px;
+    right: 220px;
+    position: absolute;
     display: inline-block;
   }
   .dropdown-content {
