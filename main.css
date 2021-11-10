@@ -6,22 +6,16 @@
   height: 611px;
   position:relative;
 }
-.mapBox a {
-    text-decoration: none;
-    position: absolute;
+/* style of the button */
+  .dropbtn { 
     background-color: #555;
     color: white;
-    font-size: 12px;
     padding: 5px 10px;
+    font-size: 12px;
     border-radius: 5px;
     text-align: center;
   }
-  .dropbtn {
-    background-color: #555;
-    color: white;
-    padding: 16px;
-    font-size: 16px;
-  }
+
   .dropdown {
     top: 150px;
     right: 220px;
@@ -31,28 +25,29 @@
   .dropdown-content {
     display: none;
     position: absolute;
-    background-color: #f9f9f9;
-    min-width: 160px;
+    background-color: #555;
+    min-width: 120px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;
   }
   .dropdown-content a {
-    color: black;
-    padding: 12px 16px;
+    color: white;
+    padding: 5px 10px;
+    font-size: 15px;
     text-decoration: none;
+    border-radius: 5px;
     display: block;
   }
-  .dropdown-content a:hover {background-color: #000000}
+  .dropdown-content a:hover {
+    background-color: rgb(0, 0, 0);
+  }
   .dropdown:hover .dropdown-content {
     display: block;
   }
   .dropdown:hover .dropbtn {
-    background-color: #555;
+    background-color: rgb(0, 0, 0);
   }
-  .ShekO:hover, .HaFaShan:hover, .MaOnShan:hover{
-    background-color: black;
-  }
-  .ShekO {
+  /* .ShekO {
     top: 445px;
     left: 570px;
   } 
@@ -63,4 +58,4 @@
   .MaOnShan {
     top: 150px;
     right: 220px;
-  }
+  } */
