@@ -6,19 +6,29 @@
   height: 611px;
   position:relative;
 }
-/* position of the button */
+/* position of the MOS button */
 .MaOnShandropdown {
   top: 150px;
   right: 220px;
   position: absolute;
   display: inline-block;
 }
+.ShekOdropdown {
+  top: 445px;
+  left: 570px;
+  position: absolute;
+  display: inline-block;
+}
+.TsuenWandropdown {
+  top: 210px;
+  left: 350px;
+}
 /* style of the button */
 .dropbtn { 
   background-color: #555;
   color: white;
-  padding: 2px 5px;
-  font-size: 12px;
+  padding: 2px 8px;
+  font-size: 12.5px;
   border-radius: 5px;
   text-align: center;
 }
@@ -33,7 +43,7 @@
 .dropdown-content a {
   color: white;
   padding: 5px 10px;
-  font-size: 15px;
+  font-size: 12px;
   text-decoration: none;
   border-radius: 5px;
   display: block;
@@ -41,21 +51,9 @@
 .dropdown-content a:hover {
   background-color: rgb(0, 0, 0);
 }
-.MaOnShandropdown:hover .dropdown-content {
+.MaOnShandropdown:hover .dropdown-content, .ShekOdropdown:hover .dropdown-content {
   display: block;
 }
-.MaOnShandropdown:hover .dropbtn {
+.MaOnShandropdown:hover .dropbtn, .ShekOdropdown:hover .dropbtn {
   background-color: rgb(0, 0, 0);
 }
-/* .ShekO {
-  top: 445px;
-  left: 570px;
-} 
-.HaFaShan {
-  top: 210px;
-  left: 350px;
-}
-.MaOnShan {
-  top: 150px;
-  right: 220px;
-} */
