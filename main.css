@@ -1,4 +1,6 @@
-
+/* table, th, td {
+  border: 1px solid black;
+}    */
 .mapBox{
   margin:0 auto;
   background-image: url('Photos/HongKong.png');
@@ -6,7 +8,7 @@
   height: 611px;
   position:relative;
 }
-/* position of the MOS button */
+/* position of the button */
 .MaOnShandropdown {
   top: 170px;
   left: 560px;
