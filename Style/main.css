@@ -33,6 +33,12 @@ body {
   position: absolute;
   display: inline-block;
 }
+.KaiKungLengdropdown {
+  top: 85px;
+  left: 340px;
+  position: absolute;
+  display: inline-block;
+}
 /* style of the button */
 .dropbtn { 
   background-color: #555;
@@ -41,6 +47,7 @@ body {
   font-size: 12px;
   border-radius: 5px;
   text-align: center;
+  cursor: pointer;
 }
 .dropdown-content {
   display: none;
@@ -70,6 +77,7 @@ body {
 .MaOnShandropdown:hover .dropbtn, 
 .ShekOdropdown:hover .dropbtn,
 .TsuenWandropdown:hover .dropbtn,
-.ChungHomKokdropdown:hover .dropbtn {
+.ChungHomKokdropdown:hover .dropbtn,
+.KaiKungLengdropdown:hover .dropbtn {
   background-color: rgb(0, 0, 0);
 }
